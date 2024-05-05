@@ -39,8 +39,8 @@ ol {
 @media (max-width: 768px) {
   .content {
     max-width: 90%;
-    margin: 37.5px auto; /* 25% thinner vertical margin */
-    padding: 15px; /* 25% thinner padding */
+    margin: 28px auto;
+    padding: 9px;
   }
   
   body, p, ol, .requirement {
