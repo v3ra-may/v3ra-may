@@ -1,18 +1,18 @@
 body {
-  background-color: black; /* Fallback background color */
+  background-color: black;
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   color: white;
   text-transform: uppercase;
-  font-size: 1.5rem; /* Default font size for larger screens */
+  font-size: 1.5rem;
   background: url('images/red-hearts-6f4.png') no-repeat center center fixed;
   background-size: cover;
 }
 
 .content {
   max-width: 50%;
-  margin: 100px auto; /* Consistent vertical margin */
+  margin: 100px auto;
   padding: 20px;
   background-color: black;
   position: relative;
@@ -42,13 +42,11 @@ ol {
     padding: 0 5%;
     margin: 50px auto;
   }
-  
   body {
-    font-size: 1rem; /* Smaller font size for smaller screens */
+    font-size: 1.2rem;
   }
-
-  p, ol, .requirement { /* Adding responsive text sizing for specific elements */
-    font-size: 1rem; /* Adjust the font size as needed */
+  p, ol, .requirement {
+    font-size: 0.9rem; /* Smaller font size for mobile */
   }
 }
 
