@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: black; /* This sets the background color behind the image */
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -9,6 +9,7 @@ body {
   background: url('images/red-hearts-6f4.png') no-repeat center center fixed;
   background-size: cover;
 }
+
 
 .content {
   max-width: 50%;
